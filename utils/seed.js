@@ -13,23 +13,23 @@ connection.once('open', async () => {
     const thoughts = []
 
     users.push({
-        username: 'jimmybob',
-        email: 'jimmy@frank.com'
+        username: 'SenTenz',
+        email: 'johnh@bootcamp.com'
     });
 
     users.push({
-        username: 'geraldine',
-        email: 'geraldine@jesus.com'
+        username: 'TeslaOwner',
+        email: 'weddev@google.net'
     });
 
     thoughts.push({
-        thoughtText: 'I deleted Facebook, Instagram and Twitter from my phone',
-        username: 'bobbyhill',
+        thoughtText: 'Goodbye everyone, Ill remember you all in therapy.',
+        username: 'Davys',
     });
 
     thoughts.push({
-        thoughtText: 'I plan to write and read wayyyy more this year',
-        username: 'HankHill',
+        thoughtText: 'Who you callin pinhead?',
+        username: 'PokePalace',
     })
     
     await User.collection.insertMany(users);
